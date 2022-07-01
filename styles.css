@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto&display=swap');
+
+
+
+/*
+.* {
+    padding: 0;
+    margin: 0;
+}
+*/
+
+
+
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    
+/*    font: normal 16px 'Roboto', sans-serif;*/
+/*    font-family: sans-serif;*/
+}
+
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:green;
+}
+
+/*
+a:visited {
+    color:darkred;
+}
+*/
+
+
+
+
+
+.avatar {
+    height: 100px;
+    width: 400px; 
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    
+}
+
+
+
+
+
+.info {
+    display:flex;
+    margin: 20px;
+    
+    
+}
+
+
+
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;  
+/*    word-spacing: 42px;*/
+/*    letter-spacing: 15px;*/
+/*    text-transform: ;*/
+}
+
+/*BOXMODEL*/
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+/*    border-bottom: 1px solid grey;*/
+}
+
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+
+.table td:nth-child(2), .table td:nth-child(3) {
+        color:grey;
+}
+
+
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.contact h2 {
+    text-align: center;
+}
+
+
+
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.button {
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*POSITION*/
+/*
+.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    height: 50px;
+    width: 100%;
+    background: lightcoral;
+}
+*/
+
+
+
+
+
+/*
+.videos li {
+    padding-bottom: 50px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.table tr:nth-child(odd) {
+    background: red;
+}
+*/
+
+
+
+
+
+
+/**/
+/*.social {*/
+/*
+    background: green;
+    padding: 10px;
+    padding: 7px 42px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 60px;
+    
+*/
+/*
+    border: 5px solid red;
+    border-top-width: 15px;
+    border-right-color: aqua;
+    
+    border-bottom-style: dotted;
+    margin: 5px;
+*/
+
+
+
+/*
+.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+}
+*/
+
+
+
+
+
